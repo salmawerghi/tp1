@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>CSS GRID</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+       <h1> LEGO WebStore</h1>
+    </header>
+    <section>
+        <hr>
+        <ul>
+            <li>
+               <a href="Produit.html">Produit</a> 
+            </li>
+            <li>
+                <a href="Acheter.html">acheter</a>
+            </li>
+            <li>
+                <a href="contact.html">contact</a>
+            </li>
+        </ul>
+        <hr>
+        <h2>
+            Acheter des LEGO
+        </h2>
+        <p>
+            Remplissez le formulaire ci-dessous pour commander des Source: <a href="https://www.lego.com/fr-fr?consent-modal=show&age-gate=grown_up">LEGO</a> !
+        </p>
+        <h2>
+            Informations personnelles
+        </h2>
+        <form>
+            <p>Civilité:<input type="radio" name="genre"/> M
+                <input type="radio" name="genre"/> Mme<br/></p>
+            <p> Nom : <br><input name="Nom:" type="text"/> </p>
+           <p> prénom:<br><input name="Prénom:" type="text"/> </p>
+           <p>Mail:<br> <input name="Mail" type="text"/> </p>
+           <h2>
+            Informations de livraison
+           </h2>
+           <p>
+            Quantité commandée:
+           </p>
+           <select name="Quantité commandée:">
+            <option value="1 boîte">1 boîte</option>
+            <option value=" 2 boîtes"> 2 boîtes</option>
+            <option value="  3 boîtes">  3 boîtes</option>
+            <option value=" 4 boîtes "> 4 boîtes </option>
+            <option value="5 boîtes">5 boîtes</option>
+            </select>
+            <p>
+                Adresse de livraison:
+            </p>
+            <textarea name="resume" rows="4" cols="20"></textarea>
+            <h2>
+                Confirmation
+            </h2>
+            <input type="checkbox" name="J'ai relu ma commande et certifie que ces informations sont correctes."/> J'ai relu ma commande et certifie que ces informations sont correctes. <br/>
+            <input type="submit" value="confirmer la commande" /><hr>
+
+        </form>
+    </section>
+    <footer>
+        <a href="#top">Retour en haut de page</a>
+        <p>TP1 : Découverte de HTML et CSS</p>
+        <p>L2 Développement Web - 2018</p>
+
+    </footer>
+</body>
